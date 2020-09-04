@@ -13,7 +13,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {  
 margin: 0;  
 padding: 0;  
-/* border: 0;   */
+border: 0;  
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
@@ -34,7 +34,9 @@ html{
 body{
     line-height:1.5;
     font-size:1.6rem;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Lato', sans-serif;
+    border: 5px solid rgba(233, 196, 148, 0.657);
+    margin: .25%;
   }
 
 a {
@@ -42,13 +44,35 @@ a {
     color: #4f4f4f;
   }
 
-header{
-    margin-bottom: 2%;
-}
-
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    /* margin-bottom: 1%; */
+    background-color: rgba(233, 196, 148, 0.657);
+}
+
+h2{
+    font-size: 3rem;
+    margin-left: 2%;
+    font-family: 'Rubik Mono One', sans-serif;
+    
+}
+
+nav{
+    margin-right: 2%;
+}
+
+nav a{
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+nav a:hover{
+    background-color: rgba(233, 196, 148, 0.657);
 }
 
 
@@ -59,23 +83,35 @@ header{
     background: url('https://www.outsideonline.com/sites/default/files/styles/full-page/public/2018/07/20/mindfullness-sweat-science_h.jpg?itok=ZYo8ezOA');
     background-size: cover;
     background-position: center;
-    width: 75%;
-    height: 30vh;
-    margin: auto;
+    width: 80%;
+    height: 35vh;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
 }
 
 h1{
     text-align: center;
     color: white;
-    font-size: larger;
-    
+    margin: 0 auto;
+    width:60%;
+    font-size: 3rem;
+    font-weight: 600;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5rem rgba(0, 0, 0.5);
+    margin-bottom: .5%;
 }
 
 .projectbutton{
     margin: 0 auto;
-    background-color: lightgray;
-    width: 10%;
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 12%;
     border-radius: 12px;
+    padding: .25% .75%;
+    color: black;
+    font-weight: bold;
+    /* margin-top: 20%; */
 }
 
 #project-images{
@@ -83,34 +119,42 @@ h1{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: 0 2.5%;
+    margin-top: 5%;
 }
 
 .pro1, .pro2, .pro3, .pro4, .pro5, .pro6{
     display:inline-block;
     width: 30%;
     text-align: center;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 img{
-    width: 80%;
+    width: 75%;
     height: auto;
+    border: 3px solid  rgba(233, 196, 148, 0.657);
 }
 
 #project-images p{
     line-height: 1;
+    margin-top: 2.5%;
+    /* font-weight: 700; */
 }
 
 footer{
     display: flex;
     justify-content: center;
+    background-color:rgba(233, 196, 148, 0.657)
+    
 }
 
 .contactme{
     margin: 1%;
-    padding: 1%;
+    padding: .25% .75%;
     border-radius: 12px;
-    font-size: 2rem;
-    width: 20%;
+    font-size: 1.6rem;
+    width: 10%;
+    text-align: center;
 
 }
