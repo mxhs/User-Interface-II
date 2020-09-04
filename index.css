@@ -1,0 +1,116 @@
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+/* border: 0;   */
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+* {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border: 1px solid grey; 
+  }
+
+html{
+   font-size:62.5%;
+    }
+
+body{
+    line-height:1.5;
+    font-size:1.6rem;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+a {
+    text-decoration: none; /*removes underline from links*/
+    color: #4f4f4f;
+  }
+
+header{
+    margin-bottom: 2%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('https://www.outsideonline.com/sites/default/files/styles/full-page/public/2018/07/20/mindfullness-sweat-science_h.jpg?itok=ZYo8ezOA');
+    background-size: cover;
+    background-position: center;
+    width: 75%;
+    height: 30vh;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: larger;
+    
+}
+
+.projectbutton{
+    margin: 0 auto;
+    background-color: lightgray;
+    width: 10%;
+    border-radius: 12px;
+}
+
+#project-images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pro1, .pro2, .pro3, .pro4, .pro5, .pro6{
+    display:inline-block;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+img{
+    width: 80%;
+    height: auto;
+}
+
+#project-images p{
+    line-height: 1;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.contactme{
+    margin: 1%;
+    padding: 1%;
+    border-radius: 12px;
+    font-size: 2rem;
+    width: 20%;
+
+}
